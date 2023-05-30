@@ -40,7 +40,7 @@ With regards to centralised exchanges, there is notable counterparty risk to con
 ## 2. EntryPoint
 
 Envision a sovereign blockchain, providing its community with secure, non-custodial access to diversified, passive cross-ecosystem investments in the token economy through a single, liquid asset. Governed as public infrastructure by a decentralised community, such a solution could instead seek to raise professional standards, promote sustainable best practices, and better educate users in risk management. By design, it would reduce counterparty risk and place the platform’s longevity in the hands of the community. Through transparent structures and self-regulating decentralised community governance, said platform could pave the way for trust building and open dialogue with regulators—thus aiding in the maturation of the token economy.  \
-	EntryPoint (hereafter EP) is just that. It is a sovereign, fully open-source and permissionless Cosmos SDK blockchain that allows tokens from any IBC-connected blockchain to be collectively assembled and stored in non-custodial **index vaults** allowing users to deposit collateral and access thematic and broad market participation in the tokenised economy through fungible, fully-collateralised **index tokens**. As a public infrastructure platform managed through transparent governance structures, EP helps its users filter out noise, diversify risk and bridge the technical and operational gap of blockchains by leveraging decentralised community governance. This enables EP to provide trust-minimised management and diversification of token portfolios in a cost-efficient and tax-friendly manner, allowing users passive participation without the need for technical expertise and time-consuming active management. 
+EntryPoint (hereafter EP) is just that. It is a sovereign, fully open-source and permissionless Cosmos SDK blockchain that allows tokens from any IBC-connected blockchain to be collectively assembled and stored in non-custodial **index vaults** allowing users to deposit collateral and access thematic and broad market participation in the tokenised economy through fungible, fully-collateralised **index tokens**. As a public infrastructure platform managed through transparent governance structures, EP helps its users filter out noise, diversify risk and bridge the technical and operational gap of blockchains by leveraging decentralised community governance. This enables EP to provide trust-minimised management and diversification of token portfolios in a cost-efficient and tax-friendly manner, allowing users passive participation without the need for technical expertise and time-consuming active management. 
 
 
 ### 2.1 Non-Custodial Index Vaults
@@ -137,11 +137,8 @@ In order to facilitate the access of thematic index vaults, EP will have to quer
 The trading module acts as the smart order router for EP and is where all the trading logic resides. Generally, it receives the state of a current token balance and a target composition, and applies an optimised swap logic to output a new token balance with the new target composition (minus price impact and slippage).
 
 
-
-
-
-![Figure 2: EP's Trading Module Mapping Functionality](./assets/mapping_functionality.png)
-**<p align="center">Figure 2: EP's Trading Module Mapping Functionality</p>**
+<p align="center"><img src="./assets/mapping_functionality.png"></p>
+<p align="center">Figure 2: EP's Trading Module Mapping Functionality</p>
 
 
 In the event a deposit is placed into an EP index vault, the trading module identifies the deposit denom, size of the deposit as well as the composition of the vault, and then identifies the best method to swap the deposit into the numerous assets as defined by the vault.
