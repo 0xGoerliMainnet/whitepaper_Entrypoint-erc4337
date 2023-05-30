@@ -209,7 +209,7 @@ EP is governed by the EntryDAO, a decentralised autonomous organisation (DAO), u
 Token holders can access governance by delegating their $ENTRY tokens to a representative, enabling them to vote on critical on-chain decisions related to EP, including management of the blockchain, treasury, index vaults, committees and working groups, among other things. 
 
 
-### 5.2 Representatives]
+### 5.2 Representatives
 
 Within standard governance, representatives are active community members who vote on behalf of token holders, by accepting delegated $ENTRY tokens. Representatives are a novel innovation of the Cosmos Hub’s Replicated Security, and serve in place of validators. This affords EP a liquid democratic system with flexible delegation to accommodate token holders unable to vote, while avoiding issues related to centralisation of voting power among validators. In this system, the vote of non-active members will default to their chosen representative's vote, but a token holder's direct vote will always override their representative's vote.
 
@@ -261,7 +261,7 @@ Finally, the third phase will seek to deploy EP mainnet such that it is secured 
 	
 
 
-## References {#references}
+## References
 
 <a id="note1" href="#note1ref">[1]</a>  [The Interchain Foundation. (2022, December 13). Expanding the Interchain — taking IBC beyond Cosmos appchains](https://medium.com/the-interchain-foundation/expanding-the-interchain-taking-ibc-beyond-cosmos-appchains-b0f9bebb4405)
 
