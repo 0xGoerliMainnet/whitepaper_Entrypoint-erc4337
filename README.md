@@ -1,5 +1,5 @@
 
-![EP Logo](./assets/logo.jpg)
+![EP Logo](./assets/logo1.png)
 
 
 - [1. The Status Quo](#1-the-status-quo)
