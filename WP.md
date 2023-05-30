@@ -26,7 +26,7 @@
 
 
 **DISCLAIMER**
-*This whitepaper does not constitute investment advice, does not include any promises, offers, guarantees, representations or warranties, and includes speculative forward-looking statements about potential post-launch capabilities of EntryPoint. This whitepaper is qualified in its entirety by the project disclaimers [here](https://entrypoint.zone).*
+*This whitepaper does not constitute investment advice, does not include any promises, offers, guarantees, representations or warranties, and includes speculative forward-looking statements about potential post-launch capabilities of EntryPoint. This whitepaper is qualified in its entirety by the project disclaimers.*
 
 ## 1. The Status Quo
 
@@ -170,14 +170,14 @@ The trading module is agnostic to whether a given order is a rebalance, deposit 
 
 ### 3.4 Vaults Module
 
-Lastly, the vault module manages the index vaults that are available on EP. This includes setting vault attributes such as titles and the vault strategies as well as vault fees (denominated in a vault’s index tokens). \
-	Strategies will be defined within the vaults module and this will be comprehensive such that compositions and weights are defined. Subsequent rebalances to ensure that the strategy is consistent with the underlying strategy as defined in the vaults module are done via on-chain governance proposals.
+Lastly, the vault module manages the index vaults that are available on EP. This includes setting vault attributes such as titles and the vault strategies as well as vault fees (denominated in a vault’s index tokens).\
+Strategies will be defined within the vaults module and this will be comprehensive such that compositions and weights are defined. Subsequent rebalances to ensure that the strategy is consistent with the underlying strategy as defined in the vaults module are done via on-chain governance proposals.
 
 
 ### 3.5 Securing EntryPoint
 
 [Proposal 72](https://www.mintscan.io/cosmos/proposals/72)'s vision of integrating consumer chains into the Cosmos Hub, thereby catalysing an interoperable economic zone, forms the basis for EP's forthcoming launch. The intention of EP is to procure Replicated Security services from the Cosmos Hub, pending the approval of its community. Replicated Security, a shared security model, was introduced to the Cosmos Hub following the [Lambda V9 upgrade](https://forum.cosmos.network/t/proposal-187-accepted-v9-lambda-upgrade-with-replicated-security/8766). \
-	EP has been designed and engineered to be compatible with this Cosmos Hub functionality. No changes have been made to EP’s consensus mechanism nor block production mechanisms, more generally. As EP is engineered using Cosmos SDK V0.47, no additional technical overheads from the Cosmos Hub community should be expected.
+EP has been designed and engineered to be compatible with this Cosmos Hub functionality. No changes have been made to EP’s consensus mechanism nor block production mechanisms, more generally. As EP is engineered using Cosmos SDK V0.47, no additional technical overheads from the Cosmos Hub community should be expected.
 
 
 ## 4. EntryPoint and the CosmosHub - A Strategic Alliance
@@ -186,17 +186,17 @@ A partnership with the Cosmos Hub would allow EP to leverage cutting-edge securi
 
 
 
-1. EP's integration with the ATOM Economic Zone will diversify Cosmos Hub's revenue streams, adding to earnings derived from: Neutron (running dApps) , Stride  (LSD products) as well as Duality (DEX) by introducing a fourth, DeFi-derived income stream.  \
+1. EP's integration with the ATOM Economic Zone will diversify Cosmos Hub's revenue streams, adding to earnings derived from: Neutron (running dApps) , Stride  (LSD products) as well as Duality (DEX) by introducing a fourth, DeFi-derived income stream. 
 
-2. EP aims to provide quality collateral in the form of index tokens for DeFi primitives, such as credit protocols and secondary markets, currently missing within the AEZ and the broader Cosmos ecosystem—potentially boosting productive credit issuance and growth within the Cosmos ecosystem. \
+2. EP aims to provide quality collateral in the form of index tokens for DeFi primitives, such as credit protocols and secondary markets, currently missing within the AEZ and the broader Cosmos ecosystem—potentially boosting productive credit issuance and growth within the Cosmos ecosystem.
 
-3. As EP’s Total Value Locked (TVL) grows, so too will ATOM's secured value increase, thus increasing the importance of the Cosmos Hub in the internet of blockchains. \
+3. An intuitive user experience through EP will facilitate the entry of liquidity into the ecosystem. As EP’s Total Value Locked (TVL) grows, so too will ATOM's secured value increase, thus increasing the importance of the Cosmos Hub in the internet of blockchains.
 
-4. Alignment and collaboration between EP and Cosmos' technically competent community could expedite development of tools and infrastructure for a thriving AEZ. \
+4. Alignment and collaboration between EP and Cosmos' technically competent community could expedite development of tools and infrastructure for a thriving AEZ.
 
-5. As EP implements and evolves its governance structures and the associated technology, the experience will flow upstream to benefit the Hub's coordination efforts as it evolves into the main coordination platform within the Cosmos ecosystem. \
+5. As EP implements and evolves its governance structures and the associated technology, the experience will flow upstream to benefit the Hub's coordination efforts as it evolves into the main coordination platform within the Cosmos ecosystem.
 
-6. EP plans to launch Cosmos-centric products like the Cosmos Index Vault, aiming to provide simple user onboarding into the AEZ, foster growth and extend Cosmos' influence across the blockchain industry. \
+6. EP plans to launch Cosmos-centric products like the Cosmos Index Vault, aiming to provide simple user onboarding into the AEZ, foster growth and extend Cosmos' influence across the blockchain industry.
 
 7. As EP seeks regulation, it'll enhance Cosmos Hub's visibility amongst new DeFi and Web3 users, broadening its user base.
 
@@ -237,14 +237,14 @@ With the DeFi sector still in its infancy, an acute lack of professional evaluat
 
 ### 5.5 Regulatory Strategy
 
-EP utilises a blend of innovative blockchain technology, conventional best practices and professional standards to create a decentralised governance model that underscores transparency, self-regulation and user safety. By emulating key elements of traditional finance in its product offerings and decision-making processes, EP assures an additional layer of integrity and confidence in its operations, with recognisable and easy to navigate structures. \
-	It is envisioned that such structures will lay the foundation for productive engagement with regulators in a long-term path towards EP becoming a fully licensed and regulated platform, with EP products integrated into existing financial infrastructure. This would facilitate greater institutional as well as broader societal adoption, significantly increasing the likelihood of higher inflows of capital.  \
-	The objective of such a regulatory pursuit, should it be deemed to be desirable by governance, would be to obtain licences for:
+EP utilises a blend of innovative blockchain technology, conventional best practices and professional standards to create a decentralised governance model that underscores transparency, self-regulation and user safety. By emulating key elements of traditional finance in its product offerings and decision-making processes, EP assures an additional layer of integrity and confidence in its operations, with recognisable and easy to navigate structures. 
+It is envisioned that such structures will lay the foundation for productive engagement with regulators in a long-term path towards EP becoming a fully licensed and regulated platform, with EP products integrated into existing financial infrastructure. This would facilitate greater institutional as well as broader societal adoption, significantly increasing the likelihood of higher inflows of capital.  
+The objective of such a regulatory pursuit, should it be deemed to be desirable by governance, would be to obtain licences for:
 
 
 
 * The EntryDAO and its governance to be recognised as a financial service provider.
-* Index vaults that are licensed as financial instruments. \
+* Index vaults that are licensed as financial instruments.
 
 
 
@@ -259,7 +259,7 @@ The first phase will see the launch of the EP testnet, which will be secured by 
 
 The second phase will result in the deployment of the vaults module, the Webapp complete with wallet extension as well as the testnet ENTRY faucet and EP explorer. Remediations resulting from community feedback from phase 1 can also be expected too. 
 
-Finally, the third phase will seek to deploy EP mainnet such that it is secured by the Cosmos Hub and formally joins the Cosmos Economic Zone. Vaults to be deployed around launch are subject to what the community intends to propose and approve. \
+Finally, the third phase will seek to deploy EP mainnet such that it is secured by the Cosmos Hub and formally joins the Cosmos Economic Zone. Vaults to be deployed around launch are subject to what the community intends to propose and approve. 
 	
 
 
@@ -268,5 +268,5 @@ Finally, the third phase will seek to deploy EP mainnet such that it is secured 
 <a id="note1" href="#note1ref">[1]</a>  [The Interchain Foundation. (2022, December 13). Expanding the Interchain — taking IBC beyond Cosmos appchains](https://medium.com/the-interchain-foundation/expanding-the-interchain-taking-ibc-beyond-cosmos-appchains-b0f9bebb4405)
 
 
-<a id="note2" href="#note2ref">[2]</a> A comprehensive list of these special privileges can be found in the EP docs
+<a id="note2" href="#note2ref">[2]</a> A comprehensive list of these special privileges can be found in the EP [docs](https://docs.entrypoint.zone)
 
