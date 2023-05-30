@@ -138,7 +138,8 @@ The trading module acts as the smart order router for EP and is where all the tr
 
 
 <p align="center"><img src="./assets/mapping_functionality.png"></p>
-<p align="center">Figure 2: EP's Trading Module Mapping Functionality</p>
+
+**<p align="center">Figure 2: EP's Trading Module Mapping Functionality</p>**
 
 
 In the event a deposit is placed into an EP index vault, the trading module identifies the deposit denom, size of the deposit as well as the composition of the vault, and then identifies the best method to swap the deposit into the numerous assets as defined by the vault.
