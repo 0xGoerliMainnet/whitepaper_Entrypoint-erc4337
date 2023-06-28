@@ -137,7 +137,7 @@ In order to facilitate the access of thematic index vaults, EP will have to quer
 The trading module acts as the smart order router for EP and is where all the trading logic resides. Generally, it receives the state of a current token balance and a target composition, and applies an optimised swap logic to output a new token balance with the new target composition (minus price impact and slippage).
 
 
-<p align="center"><img src="./assets/mapping_functionality.png"></p>
+<p align="center"><img src="./assets/EntryPoint_WhitePapper_Infographic_EPsTradingModuleMappingFunctionality_Blue-nobg.png"></p>
 
 **<p align="center">Figure 2: EP's Trading Module Mapping Functionality</p>**
 
@@ -147,19 +147,19 @@ In the event a deposit is placed into an EP index vault, the trading module iden
 
 
 
-![Figure 3: EPs's trading module deposit functionality](./assets/deposit_functionality.png)
+![Figure 3: EPs's trading module deposit functionality](./assets/EntryPoint_WhitePapper_Infographic_EntryPointsBlockchainInfrastructure_Blue-nobg-1.png)
 **<p align="center">Figure 3: Trading module, deposit functionality</p>**
 
 
 
 Upon initiation of a redemption, the procedure will first involve the disclosure of all the assets currently held within the vault, alongside the specific asset denomination intended for withdrawal, to the trading module. Subsequently, the trading module will ascertain the most advantageous swap logic to meet this demand. It is important to note that redemptions can be facilitated either through the initially deposited token or via the underlying token composition of the index vault.
 
-![Figure 4: EP's Trading module redemption functionality. The user is able to redeem their deposit asset.](./assets/redeem_deposit_token.png)
+![Figure 4: EP's Trading module redemption functionality. The user is able to redeem their deposit asset.](./assets/EntryPoint_WhitePapper_Infographic_EPsTradingModuleRedemptionFunctionality_Blue-nobg.png)
 **<p align="center">Figure 4: EP's Trading module redemption functionality. The user is able to redeem their deposit asset.</p>**
 
 
 
-![Figure 5: EP's Trading module redemption functionality. The user is able to redeem the constituent assets that make up the Vault.](./assets/redeem_collateral.png)
+![Figure 5: EP's Trading module redemption functionality. The user is able to redeem the constituent assets that make up the Vault.](./assets/EntryPoint_WhitePapper_Infographic_EPsTradingModuleRedemptionFunctionality_Blue-nobg-1.png)
 **<p align="center">Figure 5: EP's Trading module redemption functionality. The user is able to redeem the constituent assets that make up the Vault.</p>**
 
 
@@ -219,7 +219,7 @@ Within standard governance, representatives are active community members who vot
 Based on the aforementioned Authority Module, the Technical Committee operates as EntryDAO's primary response mechanism during unforeseen circumstances. Entrusted with ensuring the EP protocol's secure and efficient operation, the committee oversees technical development and chain configurations, intervening swiftly when necessary through a _one-address-one-vote_ majority. The on-chain privileges granted to the Technical Committee are meticulously constrained, with the aim of protecting the democratic rights of $ENTRY holders, as outlined in the [EntryDAO constitution](https://docs.google.com/document/d/10IeL_7Kx42gvETHQBRX61U-U-HkO5tfRASvFLSckXKE/edit?usp=sharing). The Committee is under the exclusive jurisdiction of standard governance, which oversees its work and holds the authority to elect or dismiss members in response to the community's requirements. 
 
 
-![Figure 6: Hierarchy of the EntryDAO at genesis.](./assets/redeem_collateral.png)
+![Figure 6: Hierarchy of the EntryDAO at genesis.](./assets/EntryPoint_WhitePapper_Infographic_AnOutlineOfTheVariousPhasesAssociatedWithEPsLaunch_Blue-nobg.png)
 **<p align="center">Figure 6: Hierarchy of the EntryDAO at genesis.</p>**
 
 
