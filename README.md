@@ -99,7 +99,7 @@ In addition to the modules that are shipped in SDK v0.47 and IBC v7, EP is equip
 * Vaults
 
 
-![Figure 1: EntryPoint’s blockchain infrastructure](./assets/EP_blockchain_infra.png)
+![Figure 1: EntryPoint’s blockchain infrastructure](./assets/EntryPoint_WhitePapper_Infographic_EntryPointsBlockchainInfrastructure_Blue-nobg.png)
 **<p align="center">Figure 1: EntryPoint’s blockchain infrastructure</p>**
 
 	
