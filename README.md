@@ -39,7 +39,8 @@ With regards to centralised exchanges, there is notable counterparty risk to con
 
 ## 2. EntryPoint
 
-Envision a sovereign blockchain, providing its community with secure, non-custodial access to diversified, passive cross-ecosystem investments in the token economy through a single, liquid asset. Governed as public infrastructure by a decentralised community, such a solution could instead seek to raise professional standards, promote sustainable best practices, and better educate users in risk management. By design, it would reduce counterparty risk and place the platform’s longevity in the hands of the community. Through transparent structures and self-regulating decentralised community governance, said platform could pave the way for trust building and open dialogue with regulators—thus aiding in the maturation of the token economy.  \
+Envision a sovereign blockchain, providing its community with secure, non-custodial access to diversified, passive cross-ecosystem investments in the token economy through a single, liquid asset. Governed as public infrastructure by a decentralised community, such a solution could instead seek to raise professional standards, promote sustainable best practices, and better educate users in risk management. By design, it would reduce counterparty risk and place the platform’s longevity in the hands of the community. Through transparent structures and self-regulating decentralised community governance, said platform could pave the way for trust building and open dialogue with regulators—thus aiding in the maturation of the token economy. 
+
 EntryPoint (hereafter EP) is just that. It is a sovereign, fully open-source and permissionless Cosmos SDK blockchain that allows tokens from any IBC-connected blockchain to be collectively assembled and stored in non-custodial **index vaults** allowing users to deposit collateral and access thematic and broad market participation in the tokenised economy through fungible, fully-collateralised **index tokens**. As a public infrastructure platform managed through transparent governance structures, EP helps its users filter out noise, diversify risk and bridge the technical and operational gap of blockchains by leveraging decentralised community governance. This enables EP to provide trust-minimised management and diversification of token portfolios in a cost-efficient and tax-friendly manner, allowing users passive participation without the need for technical expertise and time-consuming active management. 
 
 
@@ -54,10 +55,15 @@ Though there are numerous strategies a vault builder could create, a list of a f
 
 
 * _Total market index:_ An intuitive and comprehensive strategy that aspires to encompass the whole tokenised market, making it an optimal entry point for newcomers and truly passive participants.
-* _Macro-ecosystem vaults:_ Strategies that enable broad participation across a single ecosystem. 
+
+* _Macro-ecosystem vaults:_ Strategies that enable broad participation across a single ecosystem.
+
 * _Thematic vaults:_ Allowing users to easily engage with specific segments of the tokenised economy that they believe in, for example decentralised finance (DeFi) or the Metaverse.
+
 * _Stablecoin vaults:_ Offering risk-averse stablecoin holders an opportunity to diversify their portfolio, reducing dependency on a single stablecoin
-* _Liquid staking vaults:_ As the ecosystem matures, innovations enabling liquid staking are emerging. Deploying strategies that leverage these technologies will confer added value to users, as they can partake indirectly in staking across multiple chains via a single application. 
+
+* _Liquid staking vaults:_ As the ecosystem matures, innovations enabling liquid staking are emerging. Deploying strategies that leverage these technologies will confer added value to users, as they can partake indirectly in staking across multiple chains via a single application.
+
 * _Smart Beta vaults:_  Strategies that use alternative index construction rules based on factors such as size, value, quality, momentum, volatility, etc., as opposed to using only rudimentary market capitalisation weights. 
 
 
@@ -117,9 +123,12 @@ The Authority module facilitates the configuration of the [Technical Committee](
 
 
 
-* Pausing vaults 
-* Pausing specific chain functions, such as trading logic and IBC 
+* Pausing vaults
+
+* Pausing specific chain functions, such as trading logic and IBC
+
 * Implementing whitelisting suggestions from the community
+
 * Configuring price feeds and cancellation of trade orders
 
 
@@ -168,13 +177,15 @@ The trading module is agnostic to whether a given order is a rebalance, deposit 
 
 ### 3.4 Vaults Module
 
-Lastly, the vault module manages the index vaults that are available on EP. This includes setting vault attributes such as titles and the vault strategies as well as vault fees (denominated in a vault’s index tokens).\
+Lastly, the vault module manages the index vaults that are available on EP. This includes setting vault attributes such as titles and the vault strategies as well as vault fees (denominated in a vault’s index tokens).
+
 Strategies will be defined within the vaults module and this will be comprehensive such that compositions and weights are defined. Subsequent rebalances to ensure that the strategy is consistent with the underlying strategy as defined in the vaults module are done via on-chain governance proposals.
 
 
 ### 3.5 Securing EntryPoint
 
-[Proposal 72](https://www.mintscan.io/cosmos/proposals/72)'s vision of integrating consumer chains into the Cosmos Hub, thereby catalysing an interoperable economic zone, forms the basis for EP's forthcoming launch. The intention of EP is to procure Replicated Security services from the Cosmos Hub, pending the approval of its community. Replicated Security, a shared security model, was introduced to the Cosmos Hub following the [Lambda V9 upgrade](https://forum.cosmos.network/t/proposal-187-accepted-v9-lambda-upgrade-with-replicated-security/8766). \
+[Proposal 72](https://www.mintscan.io/cosmos/proposals/72)'s vision of integrating consumer chains into the Cosmos Hub, thereby catalysing an interoperable economic zone, forms the basis for EP's forthcoming launch. The intention of EP is to procure Replicated Security services from the Cosmos Hub, pending the approval of its community. Replicated Security, a shared security model, was introduced to the Cosmos Hub following the [Lambda V9 upgrade](https://forum.cosmos.network/t/proposal-187-accepted-v9-lambda-upgrade-with-replicated-security/8766). 
+
 EP has been designed and engineered to be compatible with this Cosmos Hub functionality. No changes have been made to EP’s consensus mechanism nor block production mechanisms, more generally. As EP is engineered using Cosmos SDK V0.47, no additional technical overheads from the Cosmos Hub community should be expected.
 
 
@@ -228,8 +239,10 @@ To learn more about EP governance, see the [documentation pages.](https://simply
 
 ### 5.4 Index Vaults and Risk Management
 
-With the DeFi sector still in its infancy, an acute lack of professional evaluation standards still remains to offset the high-risk high-reward mentality that have characterised the early days of the space. As a result, end-users face a more arbitrary and riskier valuation process. It is crucial to address this challenge, emphasising the pressing need for improved risk management practices and professional procedures in the crypto industry. EP responds to this call, setting up robust and reliable evaluation standards that prioritise user safety. \
-	EP’s index vaults are at the forefront of this initiative, adhering to clear, well-established best practices that promote prudent risk management and an informed user base. This involves a rigorous eligibility process to ensure safe provision of high-quality tokens for EP users, with transparent governance documentation on [index vault management](https://docs.google.com/document/d/13GylMBLaoQbcX-q5eekKyU86lo_gQxffjzNiQqtwVlk/edit?usp=sharing) and standardised proposal templates for [token whitelisting](https://docs.google.com/document/d/1VLBQsQ2OVwHR-DwVd1Jh1EyM6CflrtbysxhLYszS6Xc/edit?usp=sharing) and [index vaults](https://docs.google.com/document/d/15uL_ZVnYT8n5NApPRbDcUPgFmAQd8sOXq-54KLjDiC4/edit?usp=sharing) to ensure consistent and streamlined decision-making.  \
+With the DeFi sector still in its infancy, an acute lack of professional evaluation standards still remains to offset the high-risk high-reward mentality that have characterised the early days of the space. As a result, end-users face a more arbitrary and riskier valuation process. It is crucial to address this challenge, emphasising the pressing need for improved risk management practices and professional procedures in the crypto industry. EP responds to this call, setting up robust and reliable evaluation standards that prioritise user safety. 
+
+	EP’s index vaults are at the forefront of this initiative, adhering to clear, well-established best practices that promote prudent risk management and an informed user base. This involves a rigorous eligibility process to ensure safe provision of high-quality tokens for EP users, with transparent governance documentation on [index vault management](https://docs.google.com/document/d/13GylMBLaoQbcX-q5eekKyU86lo_gQxffjzNiQqtwVlk/edit?usp=sharing) and standardised proposal templates for [token whitelisting](https://docs.google.com/document/d/1VLBQsQ2OVwHR-DwVd1Jh1EyM6CflrtbysxhLYszS6Xc/edit?usp=sharing) and [index vaults](https://docs.google.com/document/d/15uL_ZVnYT8n5NApPRbDcUPgFmAQd8sOXq-54KLjDiC4/edit?usp=sharing) to ensure consistent and streamlined decision-making.  
+ 
 	The Index Vault Working Group carries out ongoing monitoring of index vaults and their underlying tokens, and further strives to provide exhaustive and cutting-edge information about each product and the overall portfolio, empowering greater portfolio customisation, and supporting users in making informed decisions around their portfolio. Each index vault comes complete with comprehensive [risk disclosure documentation](https://docs.google.com/document/d/1p3Q9Bb6A5UczfJTFYmyNR7rhWr9rN78en3bLA-ijHWI/edit?usp=sharing) to enlighten users about potential risks related to market volatility, cybersecurity, liquidity issues, regulation, tax implications, and operations.
 
 
@@ -242,6 +255,7 @@ The objective of such a regulatory pursuit, should it be deemed to be desirable 
 
 
 * The EntryDAO and its governance to be recognised as a financial service provider.
+
 * Index vaults that are licensed as financial instruments.
 
 
