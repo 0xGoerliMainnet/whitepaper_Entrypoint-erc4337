@@ -263,7 +263,7 @@ The objective of such a regulatory pursuit, should it be deemed to be desirable 
 
 ## 6. Delivery
 
-![Figure 7: An outline of the various phases associated with EP's launch.](./assets/EntryDAO_chart.png)
+![Figure 7: An outline of the various phases associated with EP's launch.](./assets/EntryPoint_WhitePapper_Infographic_DeliveryPhases_WithoutBackground.png)
 **<p align="center">Figure 7: An outline of the various phases associated with EP's launch.</p>**
 
 As depicted in the figure above, EP will launch in 3 phases starting Q2 2023.
