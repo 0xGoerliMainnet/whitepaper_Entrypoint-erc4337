@@ -3,10 +3,10 @@
 
 
 - [1. Tokenised Indexes and ETFs: The Status Quo](#1-the-status-quo)
-- [2. EntryPoint: A Marketplace for Tokenised Indexes](#2-entrypoint)
+- [2. EntryPoint: A Marketplace for Tokenised Indexes](#2-entrypoint-a-marketplace-for-tokenised-indexes)
   - [2.1 Cornerstone Features Summarised](#21-cornerstone-features-summarised)
   - [2.2 Solving Key Issues in DeFi](#22-solving-key-issues-in-defi)
-  - [2.3 EntryPoint: Filling a Critical Gap in the Supply Chain](#23-filling-a-critical-gap-in-the-supply-chain)
+  - [2.3 EntryPoint: Filling a Critical Gap in the Supply Chain](#23-entrypoint-filling-a-critical-gap-in-the-supply-chain)
   - [2.4 Use Cases](#24-use-cases)
   - [2.5 Revenue Model](#25-revenue-model)
 - [3. EntryPoint Infrastructure](#3-entrypoint-infrastructure)
